@@ -7,7 +7,7 @@ const port = process.env.Port || 3000
 
 app.use(cors())
 app.get("/", (req, res) => {
-  res.send("Chef Cafe app is runing")
+  res.send("Chef Cafe app is running")
 })
 
 app.get('/data', (req, res) => {
