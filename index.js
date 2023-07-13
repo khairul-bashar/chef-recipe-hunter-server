@@ -21,5 +21,5 @@ app.get('/data/:id', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`Chef cafe app listening on port ${port}`)
 })
